@@ -3,6 +3,7 @@ FROM ubuntu:22.04
 LABEL maintainer="martin.franke@datenwissenschaften.com"
 LABEL version="1.0"
 LABEL description="Luigi Scheduler"
+LABEL name="datenwissenschaften/luigi"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
